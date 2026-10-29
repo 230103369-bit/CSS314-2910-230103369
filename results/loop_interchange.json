@@ -1,0 +1,29 @@
+{
+    "student_id": "30103369",
+    "salted_N": 1344,
+    "block_M": 672,
+    "seed": 76440,
+    "runs": 3,
+    "naive_ijk": {
+        "samples_ns": [
+            309233584,
+            257485500,
+            249916500
+        ],
+        "median_ns": 257485500,
+        "median_seconds": 0.2574855
+    },
+    "interchanged_ikj": {
+        "samples_ns": [
+            100336834,
+            43291000,
+            42865375
+        ],
+        "median_ns": 43291000,
+        "median_seconds": 0.043291
+    },
+    "speedup": 5.947783603982352,
+    "max_absolute_error": 0.0,
+    "max_relative_error": 0.0,
+    "numerical_verification": true
+}
