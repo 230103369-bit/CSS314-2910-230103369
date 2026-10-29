@@ -15,5 +15,8 @@
   "roofline_classification": "undetermined",
   "qualitative_expectation": "Low arithmetic intensity suggests sensitivity to memory bandwidth. A definitive Roofline classification requires measured or documented memory bandwidth and compute ceilings.",
   "timing_scope": "Includes process startup, joins, and shared-memory attachment.",
-  "numerical_verification": "PASSED"
+  "numerical_verification": "PASSED",
+  "arithmetic_intensity": 0.10416666666666667,
+  "regime": "likely memory-bound (qualitative estimate)",
+  "regime_confidence": "Qualitative estimate only; hardware Roofline ceilings were not measured."
 }

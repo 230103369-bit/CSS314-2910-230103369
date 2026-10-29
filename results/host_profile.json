@@ -1,29 +1,30 @@
 {
-    "cpu_model": "Apple M2",
-    "microarchitecture": "arm64",
-    "base_frequency_hz": null,
-    "physical_cores": 8,
-    "logical_cores": 8,
-    "smt_enabled": false,
-    "cache_line_bytes": 128,
-    "l1_data_cache_bytes": 65536,
-    "l2_cache_bytes": 4194304,
-    "l3_cache_bytes": null,
-    "performance_core_cache": {
-        "l1_data_bytes": 131072,
-        "l1_instruction_bytes": 196608,
-        "l2_bytes": 16777216
-    },
-    "efficiency_core_cache": {
-        "l1_data_bytes": 65536,
-        "l1_instruction_bytes": 131072,
-        "l2_bytes": 4194304
-    },
-    "operating_system": "Darwin",
-    "os_version": "26.6.2",
-    "kernel_version": "25.6.0",
-    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
-    "python_implementation": "CPython",
-    "python_version": "3.14.7",
-    "python_executable": "/opt/homebrew/opt/python@3.14/bin/python3.14"
+  "cpu_model": "Apple M2",
+  "microarchitecture": "arm64",
+  "base_frequency_hz": null,
+  "physical_cores": 8,
+  "logical_cores": 8,
+  "smt_enabled": false,
+  "cache_line_bytes": 128,
+  "l1_data_cache_bytes": 65536,
+  "l2_cache_bytes": 4194304,
+  "l3_cache_bytes": null,
+  "performance_core_cache": {
+    "l1_data_bytes": 131072,
+    "l1_instruction_bytes": 196608,
+    "l2_bytes": 16777216
+  },
+  "efficiency_core_cache": {
+    "l1_data_bytes": 65536,
+    "l1_instruction_bytes": 131072,
+    "l2_bytes": 4194304
+  },
+  "operating_system": "Darwin",
+  "os_version": "26.6.2",
+  "kernel_version": "25.6.0",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "python_implementation": "CPython",
+  "python_version": "3.14.7",
+  "python_executable": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+  "logical_threads": 8
 }

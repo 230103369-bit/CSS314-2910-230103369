@@ -1,0 +1,11 @@
+{
+  "student_id": "30103369",
+  "salted_N": 1344,
+  "cache_line_bytes": 128,
+  "instructor_approved_exception": "Apple M2 reports 128-byte cache lines",
+  "milestone_0": "PASS with approved hardware exception",
+  "milestone_1": "PASS",
+  "milestone_2": "PASS",
+  "milestone_3": "PASS",
+  "official_receipt_generated": false
+}
