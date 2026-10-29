@@ -1,0 +1,19 @@
+{
+  "student_id": "30103369",
+  "kernel": "2D five-point stencil",
+  "salted_dimension": 1344,
+  "flops_per_interior_cell": 5,
+  "bytes_per_interior_cell_naive_model": 48,
+  "arithmetic_intensity_flops_per_byte": 0.10416666666666667,
+  "arithmetic_intensity_model": "Five input loads and one output store, 8 bytes per float64, ignoring cache reuse and temporary arrays.",
+  "effective_serial_fraction_estimate": 1.012940836218471,
+  "amdahl_asymptotic_speedup_estimate": null,
+  "amdahl_interpretation": "The effective serial fraction is outside the physical range of Amdahl's model. Parallel overhead and measurement effects prevent a meaningful asymptotic speedup estimate.",
+  "peak_memory_bandwidth_gb_s": null,
+  "peak_compute_gflops": null,
+  "roofline_ridge_point": null,
+  "roofline_classification": "undetermined",
+  "qualitative_expectation": "Low arithmetic intensity suggests sensitivity to memory bandwidth. A definitive Roofline classification requires measured or documented memory bandwidth and compute ceilings.",
+  "timing_scope": "Includes process startup, joins, and shared-memory attachment.",
+  "numerical_verification": "PASSED"
+}
