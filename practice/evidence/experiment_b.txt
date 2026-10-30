@@ -1,0 +1,27 @@
+========== RUN 1 ==========
+P=1 | Runtime=4.107s
+P=2 | Runtime=11.896s
+P=4 | Runtime=12.229s
+P=2 | Speedup=0.345x | Karp-Flatt e=4.7937
+P=4 | Speedup=0.336x | Karp-Flatt e=3.6371
+Contention slowdown: T4/T1=2.978x
+e(4) > e(2): False
+T4 > T1: True
+========== RUN 2 ==========
+P=1 | Runtime=4.059s
+P=2 | Runtime=11.669s
+P=4 | Runtime=11.794s
+P=2 | Speedup=0.348x | Karp-Flatt e=4.7496
+P=4 | Speedup=0.344x | Karp-Flatt e=3.5408
+Contention slowdown: T4/T1=2.906x
+e(4) > e(2): False
+T4 > T1: True
+========== RUN 3 ==========
+P=1 | Runtime=4.085s
+P=2 | Runtime=11.149s
+P=4 | Runtime=11.600s
+P=2 | Speedup=0.366x | Karp-Flatt e=4.4580
+P=4 | Speedup=0.352x | Karp-Flatt e=3.4524
+Contention slowdown: T4/T1=2.839x
+e(4) > e(2): False
+T4 > T1: True
