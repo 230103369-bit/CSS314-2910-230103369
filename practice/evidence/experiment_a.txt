@@ -1,0 +1,7 @@
+P=1 | Runtime=3.292s
+P=2 | Runtime=1.891s
+P=4 | Runtime=1.221s
+P=2 | Speedup=1.741x | Karp-Flatt e=0.1489
+P=4 | Speedup=2.697x | Karp-Flatt e=0.1611
+e(4)/e(2)=1.0819
+Rubric A: PASS
