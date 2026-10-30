@@ -1,0 +1,27 @@
+========== RUN 1 ==========
+P=1 | Runtime=0.425s
+P=2 | Runtime=0.220s
+P=4 | Runtime=0.147s
+P=2 | Speedup=1.929x | Karp-Flatt e=0.0369 | Efficiency=96.44%
+P=4 | Speedup=2.895x | Karp-Flatt e=0.1272 | Efficiency=72.37%
+T4 < T1: True
+E4 > 70%: True
+e(4) < 0.05: False
+========== RUN 2 ==========
+P=1 | Runtime=0.404s
+P=2 | Runtime=0.218s
+P=4 | Runtime=0.146s
+P=2 | Speedup=1.852x | Karp-Flatt e=0.0798 | Efficiency=92.61%
+P=4 | Speedup=2.772x | Karp-Flatt e=0.1476 | Efficiency=69.30%
+T4 < T1: True
+E4 > 70%: False
+e(4) < 0.05: False
+========== RUN 3 ==========
+P=1 | Runtime=0.443s
+P=2 | Runtime=0.225s
+P=4 | Runtime=0.148s
+P=2 | Speedup=1.964x | Karp-Flatt e=0.0183 | Efficiency=98.21%
+P=4 | Speedup=2.989x | Karp-Flatt e=0.1127 | Efficiency=74.73%
+T4 < T1: True
+E4 > 70%: True
+e(4) < 0.05: False

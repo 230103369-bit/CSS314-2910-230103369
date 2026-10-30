@@ -40,6 +40,31 @@ No measurements were modified.
 A supplementary single-lock experiment confirmed
 the same behavior.
 
+
 ## Experiment C — Privatization Fix
 
-Pending.
+The implementation uses private local counters with
+a single final reduction and no shared counter lock.
+
+Three recorded runs:
+
+| Metric | Run 1 | Run 2 | Run 3 |
+|---|---:|---:|---:|
+| T1 (s) | 0.425 | 0.404 | 0.443 |
+| T2 (s) | 0.220 | 0.218 | 0.225 |
+| T4 (s) | 0.147 | 0.146 | 0.148 |
+| e(2) | 0.0369 | 0.0798 | 0.0183 |
+| e(4) | 0.1272 | 0.1476 | 0.1127 |
+| E4 | 72.37% | 69.30% | 74.73% |
+
+All runs show T4 < T1, confirming improved scalability.
+
+The instructor's E4 > 70% criterion passed in two
+of three runs. The expected near-zero e(4) was
+not consistently observed.
+
+These variations are documented without changing
+the original experiment parameters.
+
+Full results: RESULTS.md
+Evidence: evidence/experiment_c.txt
